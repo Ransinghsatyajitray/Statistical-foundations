@@ -1,6 +1,13 @@
-#The Probability of the Type 2 error and sample size calculation:
+1. #The Probability of the Type 2 error and sample size calculation:
 Type1 Error: wrongly rejecting the Ho(rejecting the true claim)
 Type2 Error: wrongly accepting the Ho(failing to reject the false claim)
 
 Power: the probability of falsely rejecting the Ho , when it is false is known as the power of the test. The larger the better.
+
+2. Supervised statistical learning involves building a statistical model for
+predicting, or estimating, an output based on one or more inputs.
+
+With unsupervised statistical learning, there are
+inputs but no supervising output; nevertheless we can learn relationships
+and structure from such data.
 
