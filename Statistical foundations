@@ -11,3 +11,80 @@ With unsupervised statistical learning, there are
 inputs but no supervising output; nevertheless we can learn relationships
 and structure from such data.
 
+3. Generalised Linear Model = linear & logistic regression
+
+4. In mid 1980’s Breiman, Friedman, Olshen and Stone introduced classification and
+regression trees, and were among the first to demonstrate the power of a
+detailed practical implementation of a method, including cross-validation
+for model selection.
+
+5. Hastie and Tibshirani coined the term generalized additive models in 1986 for a class of non-linear extensions to generalized linear
+models, and also provided a practical software implementation.
+
+6. The inputs go by different names, such as 
+predictors, 
+independent variables, 
+features, or
+variables.
+
+7. The output variable
+response or dependent variable
+
+Y = f(X) + e
+
+8. Why Estimate f?
+There are two main reasons that we may wish to estimate for f: 
+prediction
+inference.
+
+9. Prediction
+In many situations, a set of inputs X are readily available, but the output
+Y cannot be easily obtained. In this setting, since the error term averages
+to zero, we can predict Y using
+ˆY = ˆ f(X), (2.2)
+where ˆ f represents our estimate for f, and ˆ Y represents the resulting prediction
+for Y . 
+Very Important:
+____________________________________
+In this setting, ˆ f is often treated as a black box, in the sense
+that one is not typically concerned with the exact form of ˆ f, provided that
+it yields accurate predictions for Y .
+
+10. The accuracy of ˆY as a prediction for Y depends on two quantities,
+which we will call the reducible error and the irreducible error.
+
+11. reducible error
+This error is reducible because we can potentially improve the
+accuracy of ˆ f by using the most appropriate statistical learning technique to
+estimate f. 
+
+12. irreducible error.
+However, even if it were possible to form a perfect estimate for
+f, so that our estimated response took the form ˆ Y = f(X), our prediction
+would still have some error in it! This is because Y is also a function of
+ǫ, which, by definition, cannot be predicted using X. Therefore, variability
+associated with ǫ also affects the accuracy of our predictions. This is known
+as the irreducible error, because no matter how well we estimate f, we
+cannot reduce the error introduced by ǫ.
+
+
+13. Why is the irreducible error larger than zero? The quantity ǫ may contain
+unmeasured variables that are useful in predicting Y : since we don’t
+measure them, f cannot use them for its prediction. The quantity ǫ may
+also contain unmeasurable variation. For example, the risk of an adverse
+reaction might vary for a given patient on a given day, depending on manufacturing
+variation in the drug itself or the patient’s general feeling of
+well-being on that day.
+
+14. It is important to keep in mind that the
+irreducible error will always provide an upper bound on the accuracy of
+our prediction for Y . This bound is almost always unknown in practice.
+
+15.Inference:
+We are often interested in understanding the way that Y is affected as
+X1, . . . ,Xp change. In this situation we wish to estimate f, but our goal is
+not necessarily to make predictions for Y . We instead want to understand
+the relationship between X and Y , or more specifically, to understand how
+Y changes as a function of X1, . . . ,Xp. Now ˆ f cannot be treated as a black
+box, because we need to know its exact form.
+
