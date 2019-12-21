@@ -88,3 +88,34 @@ the relationship between X and Y , or more specifically, to understand how
 Y changes as a function of X1, . . . ,Xp. Now ˆ f cannot be treated as a black
 box, because we need to know its exact form.
 
+16. Broadly speaking, most statistical learning methods for this task can be characterized
+as either parametric or non-parametric.
+
+17. Parametric methods
+Parametric methods involve a two-step model-based approach.
+> 1. First, we make an assumption about the functional form, or shape,
+of f.
+> 2. After a model has been selected, we need a procedure that uses the
+training data to fit or train the model.
+
+The model-based approach just described is referred to as parametric;
+it reduces the problem of estimating f down to one of estimating a set of
+parameters.
+The potential disadvantage of a parametric
+approach is that the model we choose will usually not match the true
+unknown form of f.
+These more complex models can lead to a
+phenomenon known as overfitting the data, which essentially means they
+overfitting
+follow the errors, or noise, too closely
+
+18. Non-parametric methods
+Non-parametric methods do not make explicit assumptions about the functional
+form of f. Instead they seek an estimate of f that gets as close to the
+data points as possible without being too rough or wiggly. Such approaches
+can have a major advantage over parametric approaches: by avoiding the
+assumption of a particular functional form for f, they have the potential
+to accurately fit a wider range of possible shapes for f.
+
+19. The Trade-off Between Prediction Accuracy and Model
+Interpretability
