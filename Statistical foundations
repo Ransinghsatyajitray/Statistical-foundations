@@ -162,3 +162,53 @@ For instance, if we seek to develop an algorithm to predict the price of a stock
 our sole requirement for the algorithm is that it predict accurately — interpretability
 is not a concern. In this setting, we might expect that it will
 be best to use the most flexible model available.
+
+22. unsupervised learning:
+We can seek to understand the relationships between the variables or
+between the observations. One statistical learning tool that we may use in
+this setting is cluster analysis, or clustering. The goal of cluster analysis is
+cluster analysis to ascertain, on the basis of x1, . . . , xn, whether the observations fall into
+relatively distinct groups.
+
+23. Regression versus Classification Problems:
+Variables can be characterized as either quantitative or qualitative.
+>We tend to refer to problems with a quantitative response, as regression problems,
+>those involving a qualitative response are often referred to as classification problems.
+
+However, the distinction is notclassification always that crisp.
+#Least squares linear regression  > quantitative response
+#logistic regression > qualitative (two-class, or binary) response. classification method. But since it estimates class probabilities, it
+can be thought of as a regression method as well.
+
+>Some statistical methods,such as K-nearest neighbors and boosting can be used in the case of either quantitative or qualitative responses.
+
+
+24. Why is it necessary to introduce so many different
+statistical learning approaches, rather than just a single best method? There
+is no free lunch in statistics: no one method dominates all others over all
+possible data sets.
+
+
+important concepts that arise in selecting a statistical learning procedure for a specific data set.
+> Measuring the Quality of Fit:
+In the regression setting, the most commonly-used measure is the mean squared error (MSE)
+
+
+25. Bias Variance trade off:
+Bias on the training data and the variance on the test data.
+When the data fits the training data very well but not the testing data it is called overfit.
+We want a model which has loe bias as well as low variance.
+
+eg. consider a case where a linear regression fits a straight line to the training set but the straight line doesnt have the flexibility to accurately
+replicate the arc in the true relationship.
+=> st line will never capture the true relation between the ht and the wt np matter how well we fit to the training data set.
+
+The inability of the m/c learning method to capture the true relationship is called the bias.
+
+Another m/c learning method might be a squiggly line to the training set. the squiggly line is flexible and hugs the training set along 
+the arc of the true relation. The squiggly line has very low bias.
+
+But when we compare the models on the test data we see that on the test set the st line better fit the data. In the m/c learning the difference 
+in the fits b/w the data sets is called variance.
+
+Good model has low bias and low variance. This is achieved by finding the sweet spot between simple model and complex model.
