@@ -212,3 +212,40 @@ But when we compare the models on the test data we see that on the test set the 
 in the fits b/w the data sets is called variance.
 
 Good model has low bias and low variance. This is achieved by finding the sweet spot between simple model and complex model.
+
+
+It is clear that as the level of flexibility increases, the curves fit the observed
+data more closely. A more restricted and hence smoother curve has fewer degrees
+of freedom than a wiggly curve . linear regression
+is at the most restrictive end, with two degrees of freedom.
+
+26. Note that regardless of whether or not overfitting has
+occurred, we almost always expect the training MSE to be smaller than
+the test MSE because most statistical learning methods either directly or
+indirectly seek to minimize the training MSE. Overfitting refers specifically
+to the case in which a less flexible model would have yielded a smaller test
+MSE.
+
+27. What do we mean by the variance and bias of a statistical learning
+method?
+Variance refers to the amount by which ˆ f would change if we
+estimated it using a different training data set. Since the training data
+are used to fit the statistical learning method, different training data sets
+will result in a different ˆ f. But ideally the estimate for f should not vary
+too much between training sets. 
+
+Generally, more flexible methods result in less bias.
+
+28. As a general rule, as we use more flexible methods, the variance will
+increase and the bias will decrease.
+
+29. The relationship between bias, variance, and test set MSE is referred to as the bias-variance
+trade-off.
+
+30. The Classification Setting:
+The most common approach for quantifying the accuracy of our estimate ˆ f is
+the training error rate,
+A good classifier is one for which the test error is smallest.
+
+31. This is called the Bayes decision boundary. The Bayes classifier’s prediction is determined by the Bayes decision boundary. The Bayes classifier produces the lowest possible test error rate, called
+the Bayes error rate. 
