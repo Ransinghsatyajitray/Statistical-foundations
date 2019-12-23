@@ -260,3 +260,6 @@ corresponds to predicting class one if Pr(Y = 1|X = x0) > 0.5, and class two oth
 
 The Bayes classifier produces the lowest possible test error rate, called the Bayes error rate. The Bayes error rate is analogous to
 the irreducible error, 
+
+
+33. Understand Conditional Probability then Bayes Classifier
