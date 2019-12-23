@@ -243,9 +243,20 @@ increase and the bias will decrease.
 trade-off.
 
 30. The Classification Setting:
-The most common approach for quantifying the accuracy of our estimate ˆ f is
-the training error rate,
+The most common approach for quantifying the accuracy of our estimate ˆ f is the training error rate,
 A good classifier is one for which the test error is smallest.
 
 31. This is called the Bayes decision boundary. The Bayes classifier’s prediction is determined by the Bayes decision boundary. The Bayes classifier produces the lowest possible test error rate, called
 the Bayes error rate. 
+
+32. It is possible to show  that the test error rate is minimized, on average, by a very simple classifier that assigns each observation to the most likely class,
+given its predictor values. In other words, we should simply assign a test observation with predictor vector x0 to the class j for which
+Pr(Y = j|X = x0)
+
+Note that Pr(Y = j|X = x0) is a conditional probability: it is the probability that Y = j, given the observed predictor vector x0.
+This very simple classifier is called the Bayes classifier. 
+In a two-class problem where there are only two possible response values, say class 1 or class 2, the Bayes classifier
+corresponds to predicting class one if Pr(Y = 1|X = x0) > 0.5, and class two otherwise.
+
+The Bayes classifier produces the lowest possible test error rate, called the Bayes error rate. The Bayes error rate is analogous to
+the irreducible error, 
