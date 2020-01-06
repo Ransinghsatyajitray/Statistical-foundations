@@ -261,5 +261,26 @@ corresponds to predicting class one if Pr(Y = 1|X = x0) > 0.5, and class two oth
 The Bayes classifier produces the lowest possible test error rate, called the Bayes error rate. The Bayes error rate is analogous to
 the irreducible error, 
 
-
+++++++++++++++++++++++++++++++++Things to understand++++++++++++++++++++++++++++++++++
 33. Understand Conditional Probability then Bayes Classifier
+34. h20.ai
+35. In and out about the Machine learning models: tree based model, neural network, SVM, xgboost, log reg
+36. formulas for different measures like sensitivity, specificity, recall, accuracy, F1.
+37. ML end to end process.
+38. standard workflow for common projects in R in kaggle
+39. How do machine learn
+40. DBSCAN, PCA, Self organising map, 
+41. application of supervised, unsupervised, and reinforcement learning
+42. ML activities
+43. cost function and error function. Vs loss function vs objective function
+44. Prediction capability based on AUC
+45. Improving the model performance.
+46. PCA Vs SVD Vs LDA
+47. Feature relevance Vs Feature redundancy
+48. L1 and L2 norm
+49. Cosine similarity
+50. Bayesian concept learning
+51. Naive Bayes classifier
+52. 
+
+
