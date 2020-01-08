@@ -281,6 +281,50 @@ the irreducible error,
 49. Cosine similarity
 50. Bayesian concept learning
 51. Naive Bayes classifier
-52. 
+
+#Content from The 100 Page Machine Learning:
+52. How Supervised Learning Works
+53. Why Model Work on New Data
+54. Derivative and Gradient
+55. Model based Learning Vs Instance Based Learning.
+56. Linear Regression Fundamental
+57. Logistic Regression Fundamental
+58. Decision Tree Fundamental
+59. Support Vector Fundamental
+60. K Nearest Neighbours Fundamental
+61. Building Block of Learning Algorithm
+62. Gradiant Descent
+63. How ML Engineer Work
+64. Feature Engineering
+65. Under fitting and Overfitting
+66. Model Peformance Assessment
+67. Hyperparameter Tuning
+68. Neural Network and Deep learning
+69. Multilayer perception
+70. Feed forward neural network architecture
+71. Convolution Neural Network
+72. Recurrent Neural Network
+73. Kernel Regression
+74. Multiclass Classification
+75. One Class Classification
+76. Multi-Label Classification
+78. Sequence to Sequence Learning
+79. Semi Supervised Learning
+80. One Shot Learning
+81. Zero Shot Learning
+82. Handling Inbalanced Dataset
+
+83. Unsupervised Learning: Density function
+84. Clustering
+85. K Means
+86. DBSCAN and HDBSCAN
+
+#Content from An Introduction to Statistical Learning with Application in R
+87. Chap 4: Linear Discriminant Analysis
+88. Chap 5: Resampling Methods
+89. Chap 6: Linear Model Selection and Regularization
+90. Chap 7: Generalized Additive Models
+91. 
+
 
 
